@@ -2,7 +2,7 @@
 
 ## Develop
 
-Clone the repo locally. Run `npm install` and `node app.js`.
+Clone the repo locally. Run `npm install`. Run `mongod --dbpath=/data` and `node app.js` concurrently. The database name is `mydb-test`.
 
 ## Description
 This is a basic back-end for an API consisting of users, posts, and comments. Users are able to log in and log out, and are only able to edit data they 'own'. 
